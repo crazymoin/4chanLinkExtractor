@@ -1,13 +1,13 @@
 <?php
 // you will need a php server to run this
 // example use
-// yourdomain.com/link.php?l=http://boards.4chan.org/gif/thread/7129066
+// yourdomain.com/link.php?l=http://somewebsite.com/
 
 
 if(isset($_GET['l']) ) {
 	$a = $_GET['l'];
 } else {
-  echo 'oops! need a link man! user ?l=4chanlinkorsomething.html ';
+  echo 'oops! need a link man! user ?l=somewebsite.com/something.html ';
   exit;
 }
 
